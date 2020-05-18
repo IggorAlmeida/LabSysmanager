@@ -3,3 +3,6 @@ linhas_de_acao.txt
 Prova Python.txt
 /sys_manager_env/*
 .idea/*
+/LabSysmanager/db.sqlite3
+/LabSysmanager/core/migrations/*
+/LabSysmanager/core/__pycache__/
