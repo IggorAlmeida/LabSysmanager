@@ -12,7 +12,7 @@ class Client(models.Model):
     signo = models.CharField(max_length=30)
     mae = models.CharField(max_length=50)
     pai = models.CharField(max_length=50)
-    email = models.EmailField(max_length=200)
+    email = models.CharField(max_length=200)
     senha = models.CharField(max_length=50)
     cep = models.CharField(max_length=100)
     numero = models.PositiveIntegerField()
