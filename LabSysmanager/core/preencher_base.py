@@ -17,3 +17,7 @@ def populate():
         if serializer.is_valid():
             serializer.save()
 
+
+if __name__ == "__main__":
+    populate()
+
