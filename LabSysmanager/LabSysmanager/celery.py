@@ -14,8 +14,8 @@ app.conf.timezone = 'America/Sao_Paulo'
 app.autodiscover_tasks()
 
 app.conf.beat_schedule = {
-    'send-report-every-single-minute': {
+    'save-database-every-twelve-hour': {
         'task': 'core.tasks.populate_task',
-        'schedule': crontab(minute='*/20'),  # change to `crontab(minute=0, hour=0)` if you want it to run daily at midnight
+        'schedule': crontab(minute=0, hour='*/12'),  # change to `crontab(minute=0, hour=0)` if you want it to run daily at midnight
     },
 }

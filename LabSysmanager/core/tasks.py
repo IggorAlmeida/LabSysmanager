@@ -6,9 +6,6 @@ from .serializers import ClientSerializer
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
 
-@shared_task
-def adding_task(x, y):
-    return x + y
 
 @shared_task
 def populate_task():
