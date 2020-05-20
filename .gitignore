@@ -5,4 +5,6 @@ Prova Python.txt
 .idea/*
 /LabSysmanager/db.sqlite3
 /LabSysmanager/core/migrations/*
-/LabSysmanager/core/__pycache__/
+/LabSysmanager/core/__pycache__/*
+LabSysmanager/LabSysmanager/__pycache__/*
+dump.rdb
